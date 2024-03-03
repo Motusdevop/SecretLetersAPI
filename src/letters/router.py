@@ -1,5 +1,7 @@
-from database import letters_db
 from fastapi import APIRouter, HTTPException
+
+from database import letters_db
+
 from letters.schemas import Password, SLetter, SNewLetter
 from letters.utils import generate_token
 
