@@ -1,0 +1,1 @@
+letters_db: dict = dict()
