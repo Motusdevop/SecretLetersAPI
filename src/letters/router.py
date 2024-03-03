@@ -1,8 +1,7 @@
-from fastapi import APIRouter, HTTPException
-
-from letters.schemas import SLetter, SNewLetter, Password
-from letters.utils import generate_token
 from database import letters_db
+from fastapi import APIRouter, HTTPException
+from letters.schemas import Password, SLetter, SNewLetter
+from letters.utils import generate_token
 
 router = APIRouter(prefix='/letters')
 

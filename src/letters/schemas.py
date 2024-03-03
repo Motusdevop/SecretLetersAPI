@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+
 class SNewLetter(BaseModel):
     title: str
     password: str
