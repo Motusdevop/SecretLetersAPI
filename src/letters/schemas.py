@@ -9,6 +9,7 @@ class SNewLetter(BaseModel):
 
 class SLetter(SNewLetter):
     token: str
+    id: int | None
 
 class Password(BaseModel):
     password: str
